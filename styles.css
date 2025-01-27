@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,400;9..40,500&family=Montserrat:wght@100;200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #dbe0de;
+    display: flex;
+    flex-direction: column;
+    background:
+    linear-gradient(77deg, #dbe0de 0%, #dbe0de 60%, #f8d5b8 60%, #f9d3b5 100%);
+    background-repeat: no-repeat;
+}
+#left-handle {
+    color: #454545;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#nav-links a {
+    color: #454545;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#nav-links a:hover{
+    text-decoration: underline;
+}
+img{
+    border-radius: 50%;
+    display: flex;
+    margin: 50px 20px 50px 100px;
+    padding: 0;
+    border: 8px solid rgba(185, 221, 243, 0.743);
+}
